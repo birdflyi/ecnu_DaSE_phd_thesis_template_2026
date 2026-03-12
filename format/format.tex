@@ -19,7 +19,6 @@ urlcolor=black
 % \usepackage[numbers]{natbib} %sort&compress
 \usepackage{geometry}
 \usepackage{url}
-\usepackage{times}
 \usepackage{fontspec}
 \usepackage{makecell,rotating,multirow,diagbox}
 \usepackage{booktabs}
@@ -181,6 +180,17 @@ urlcolor=black
 \renewcommand{\listfigurename}{\heiti \sanhao {图目录}}
 \renewcommand{\listtablename}{\heiti \sanhao {表目录}}
 \setmainfont{Times New Roman}
+\setsansfont{Noto Sans}
+\setmonofont{Noto Sans Mono}
+\setCJKmainfont{Noto Serif CJK SC}
+\setCJKsansfont{Noto Sans CJK SC}
+\setCJKmonofont{Noto Sans Mono CJK SC}
+\setCJKfamilyfont{song}{Noto Serif CJK SC}
+\setCJKfamilyfont{hei}{Noto Sans CJK SC}
+\setCJKfamilyfont{kai}{FandolKai}
+\renewcommand{\songti}{\CJKfamily{song}}
+\renewcommand{\heiti}{\CJKfamily{hei}}
+\renewcommand{\kaishu}{\CJKfamily{kai}}
 \dottedcontents{chapter}[1.5cm]{\sihao\heiti}{3.8em}{9.5pt}
 \dottedcontents{section}[1.5cm]{\xiaosi\heiti}{2.8em}{9.5pt}
 \DeclareRobustCommand\nobreakspace{\leavevmode\nobreak\ }
